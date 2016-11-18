@@ -1,0 +1,167 @@
+.no-gutter > [class*='col-'] {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.layout {
+  margin: 0 auto;
+  width: 100%;
+  position: relative; }
+  .layout .menu {
+    background: #ff4727;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 70px; }
+    .layout .menu .icon {
+      margin: 15px; }
+    .layout .menu .menu-bottom {
+      margin-top: 300px; }
+      .layout .menu .menu-bottom .rotatable {
+        margin-top: 80px;
+        font-size: 32px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform: rotate(-90deg); }
+  .layout .header {
+    background-image: url(../img/header.png);
+    font-family: Regular;
+    padding: 0 15px;
+    width: 100%; }
+    .layout .header .logo {
+      color: #430d0d;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 1;
+      padding: 5px 0 10px 0;
+      text-align: center; }
+    .layout .header .sponsor {
+      font-size: 14px;
+      margin: 15px 0 10px 0; }
+      .layout .header .sponsor .sposor-name {
+        line-height: 1; }
+      .layout .header .sponsor > a {
+        color: #23222e;
+        text-decoration: underline; }
+    .layout .header .social {
+      margin-top: 27px; }
+      .layout .header .social .social__button {
+        max-width: 65px;
+        padding: 5px 0;
+        text-align: center; }
+      .layout .header .social .social__button:hover {
+        border: 2px solid #ff4727;
+        color: #ff4727;
+        margin: -2px; }
+    .layout .header .call {
+      background: #ff4727;
+      color: #fff;
+      line-height: 1.1;
+      margin: 15px 0;
+      padding: 20px 0px;
+      text-align: center;
+      right: 0; }
+      .layout .header .call .call-namber {
+        font-size: 19px; }
+        .layout .header .call .call-namber .call-info {
+          font-size: 11px; }
+  .layout .content {
+    margin: 70px 0 50px 0; }
+    .layout .content .block-workin .voting {
+      margin-top: 25px; }
+      .layout .content .block-workin .voting > p {
+        color: #ff4727;
+        font-family: GothamPro;
+        font-size: 18px;
+        font-weight: bold; }
+    .layout .content .block-workin .social-voting {
+      font-size: 20px;
+      margin: 0 auto; }
+    .layout .content .consist {
+      font-size: 24px; }
+      .layout .content .consist > a {
+        color: #23222e;
+        font-family: PlayfairDisplay;
+        text-decoration: underline; }
+    .layout .content .name {
+      font-size: 48px;
+      margin: 75px 0; }
+      .layout .content .name .profession {
+        font-family: GothamPro;
+        font-size: 24px; }
+    .layout .content .information {
+      text-align: center; }
+      .layout .content .information .blog__work .diary {
+        color: #23222e;
+        font-family: PlayfairDisplay;
+        font-size: 24px; }
+      .layout .content .information .blog__work .model-info {
+        font-family: PlayfairDisplay;
+        font-size: 18px; }
+        .layout .content .information .blog__work .model-info > span {
+          color: #ff4727; }
+      .layout .content .information .block-rezultat {
+        margin: 0 auto; }
+        .layout .content .information .block-rezultat > p {
+          font-family: PlayfairDisplay;
+          font-size: 18px;
+          padding: 5px 0; }
+      .layout .content .information .img-model {
+        display: inline-block;
+        margin: 0 auto; }
+        .layout .content .information .img-model .image {
+          float: left;
+          padding: 2px; }
+      .layout .content .information .trait {
+        margin: 10px 0; }
+      .layout .content .information .procedure {
+        font-family: PlayfairDisplay;
+        font-size: 18px; }
+      .layout .content .information .block-week {
+        margin-top: 15px; }
+        .layout .content .information .block-week > p {
+          font-size: 24px; }
+        .layout .content .information .block-week .item {
+          margin: 30px 0;
+          margin-left: -35px; }
+          .layout .content .information .block-week .item .list-item {
+            color: #23222e;
+            font-family: GothamPro;
+            font-size: 14px;
+            text-align: left; }
+      .layout .content .information .final {
+        color: #ff4727;
+        font-family: PlayfairDisplay;
+        font-size: 24px;
+        margin-top: 25px; }
+  .layout .fotter {
+    background-image: url(../img/fotter.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-family: GothamPro;
+    color: #6c696c;
+    padding-bottom: 90px; }
+    .layout .fotter .container {
+      padding-top: 90px; }
+    .layout .fotter p {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      margin-bottom: 40px; }
+    .layout .fotter .fotter-item {
+      padding-left: 0; }
+      .layout .fotter .fotter-item .list-item {
+        list-style: none;
+        padding-bottom: 10px; }
+        .layout .fotter .fotter-item .list-item > a {
+          color: #6c696c;
+          text-decoration: underline; }
+    .layout .fotter img {
+      margin-top: 5px; }
+    .layout .fotter .fotter-text {
+      line-height: 1.1; }
+
+/*# sourceMappingURL=app.css.map */
