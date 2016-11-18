@@ -1,7 +1,7 @@
 @import "mixins";
 
-@include require-font('GothamPro', '../fonts/GothamPro/GothamPro')
-@include require-font('GothamPro-Medium', '../fonts/GothamPro-Medium/GothamPro-Medium')
+@include font-face(GothamPro, GothamPro/GothamPro, null, null, eot woff ttf svg);
+@include font-face(GothamPro-Medium, GothamPro-Medium/GothamPro-Medium, null, null, eot woff ttf svg);
 
 .no-gutter >[class*='col-'] {
     padding-left: 0px;

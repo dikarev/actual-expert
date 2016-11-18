@@ -1,10 +1,26 @@
-@mixin require-font($name, $path) {
-    @font-face {
-        font-family: '$name';
-        src: url('$path.eot?') format('eot'),
-             url('$path.otf')  format('opentype'),
-             url('$path.woff') format('woff'),
-             url('$path.ttf')  format('truetype'),
-             url('$path.svg#$name') format('svg');
-    }
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+	$src: null;
+
+	$extmods: (
+		eot: "?",
+		svg: "#" + $name
+	);
+
+	$formats: (
+		otf: "opentype",
+		ttf: "truetype"
+	);
+
+	@each $ext in $exts {
+		$extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+		$format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+		$src: append($src, url(quote("../fonts/" + $path + "." + $extmod)) format(quote($format)), comma);
+	}
+
+	@font-face {
+		font-family: quote($name);
+		font-style: $style;
+		font-weight: $weight;
+		src: $src;
+	}
 }
