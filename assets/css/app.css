@@ -30,6 +30,8 @@
         -o-transform: rotate(-90deg);
         -ms-transform: rotate(-90deg);
         transform: rotate(-90deg); }
+  .layout__content {
+    margin-left: 70px; }
   .layout .header {
     background-image: url(../img/header.png);
     font-family: Regular;
@@ -143,32 +145,32 @@
         font-family: PlayfairDisplay;
         font-size: 24px;
         margin-top: 25px; }
-  .layout .fotter {
-    background-image: url(../img/fotter.png);
+  .layout .footer {
+    background-image: url(../img/footer.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     font-family: GothamPro;
     color: #6c696c;
     padding-bottom: 90px; }
-    .layout .fotter .container {
+    .layout .footer .container {
       padding-top: 90px; }
-    .layout .fotter p {
+    .layout .footer p {
       font-size: 16px;
       font-weight: bold;
       letter-spacing: 2px;
       margin-bottom: 40px; }
-    .layout .fotter .fotter-item {
+    .layout .footer .footer-item {
       padding-left: 0; }
-      .layout .fotter .fotter-item .list-item {
+      .layout .footer .footer-item .list-item {
         list-style: none;
         padding-bottom: 10px; }
-        .layout .fotter .fotter-item .list-item > a {
+        .layout .footer .footer-item .list-item > a {
           color: #6c696c;
           text-decoration: underline; }
-    .layout .fotter img {
+    .layout .footer img {
       margin-top: 5px; }
-    .layout .fotter .fotter-text {
+    .layout .footer .footer-text {
       line-height: 1.1; }
 
 /*# sourceMappingURL=app.css.map */

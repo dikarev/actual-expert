@@ -38,6 +38,10 @@
         }
     }
 
+    &__content {
+        margin-left: 70px;
+    }
+
     .header {
         background-image: url(../img/header.png);
         font-family: Regular;
@@ -191,8 +195,8 @@
             }
         }
     }
-    .fotter {
-        background-image: url(../img/fotter.png);
+    .footer {
+        background-image: url(../img/footer.png);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
@@ -208,7 +212,7 @@
             letter-spacing: 2px;
             margin-bottom: 40px;
         }
-        .fotter-item {
+        .footer-item {
             padding-left: 0;
             .list-item {
                 list-style: none;
@@ -222,7 +226,7 @@
         img {
             margin-top:5px;
         }
-        .fotter-text {
+        .footer-text {
             line-height: 1.1;
 
         }
