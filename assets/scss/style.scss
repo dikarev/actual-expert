@@ -2,6 +2,7 @@
 
 @include font-face(GothamPro, GothamPro/GothamPro, null, null, eot woff ttf svg);
 @include font-face(GothamPro-Medium, GothamPro-Medium/GothamPro-Medium, null, null, eot woff ttf svg);
+@include font-face(PlayfairDisplayRegular, PlayfairDisplayRegular/PlayfairDisplayRegular, null, null, eot woff ttf svg);
 
 .no-gutter > [class*="col-"] {
     padding-left: 0px;
@@ -30,10 +31,10 @@
                 font-size: 32px;
                 margin-top: 80px;
                 -webkit-transform: rotate(-90deg);
-                   -moz-transform: rotate(-90deg);
-                     -o-transform: rotate(-90deg);
-                    -ms-transform: rotate(-90deg);
-                        transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
             }
         }
     }
@@ -44,8 +45,7 @@
 
     .header {
         background-image: url(../img/header.png);
-        font-family: Regular;
-        padding: 0 15px;
+        font-family: GothamPro;
         width: 100%;
 
         .logo {
@@ -57,8 +57,8 @@
             text-align: center;
         }
         .sponsor {
-            font-size: 14px;
-            margin: 15px 0 10px 0;
+            font-size: 11px;
+            margin: 35px 0 10px 0;
             .sposor-name {
                 line-height: 1;
             }
@@ -69,6 +69,7 @@
         }
         .social {
             margin-top: 27px;
+            display: block;
             .social__button {
                 max-width: 65px;
                 padding: 5px 0;
@@ -77,7 +78,7 @@
             .social__button:hover {
                 border: 2px solid #ff4727;
                 color: #ff4727;
-                margin: -2px;
+                margin: -2px 0;
             }
         }
         .call {
@@ -87,10 +88,11 @@
             margin: 15px 0;
             padding: 20px 0px;
             text-align: center;
-
+            width: 200px;
 
             .call-namber {
-                font-size: 19px;
+                font-size: 18px;
+                font-family: GothamPro-Medium;
                 .call-info {
                     font-size: 11px;
                 }
@@ -120,7 +122,7 @@
             font-size: 24px;
             > a {
                 color: #23222e;
-                font-family: PlayfairDisplay;
+                font-family: PlayfairDisplayRegular;
                 text-decoration: underline;
             }
         }
@@ -137,21 +139,21 @@
             .blog__work {
                 .diary {
                     color: #23222e;
-                    font-family: PlayfairDisplay;
+                    font-family: PlayfairDisplayRegular;
                     font-size: 24px;
                 }
                 .model-info {
-                    font-family: PlayfairDisplay;
+                    font-family: PlayfairDisplayRegular;
                     font-size: 18px;
                     > span {
                         color: #ff4727;
                     }
                 }
             }
-            .block-rezultat {
+            .block__rezultat {
                 margin: 0 auto;
                 > p {
-                    font-family: PlayfairDisplay;
+                    font-family: GothamPro;
                     font-size: 18px;
                     padding: 5px 0;
                 }
@@ -171,10 +173,11 @@
                 font-family: PlayfairDisplay;
                 font-size: 18px;
             }
-            .block-week {
+            .block__week {
                 margin-top: 15px;
                 > p {
                     font-size: 24px;
+                    font-family: PlayfairDisplay;
                 }
                 .item {
                     margin: 30px 0;
@@ -190,7 +193,7 @@
             }
             .final {
                 color: #ff4727;
-                font-family: PlayfairDisplay;
+                font-family: PlayfairDisplay;;
                 font-size: 24px;
                 margin-top: 25px;
             }
@@ -208,28 +211,34 @@
             padding-top: 90px;
         }
         p {
-            font-size: 16px;
+            font-size: 15px;
             font-weight: bold;
             letter-spacing: 2px;
             margin-bottom: 40px;
+            text-overflow: ellipsis;
         }
         .footer-item {
             padding-left: 0;
+            padding-bottom: 10px;
             .list-item {
                 list-style: none;
-                padding-bottom: 10px;
-                > a{
+                padding-bottom: 20px;
+                > a {
                     color: #6c696c;
+                    text-decoration: underline;
+                }
+                > span {
                     text-decoration: underline;
                 }
             }
         }
         img {
             margin-top:5px;
+            padding-bottom: 15px;
         }
         .footer-text {
             line-height: 1.1;
-
+            padding-bottom: 15px;
         }
     }
 }
