@@ -4,19 +4,19 @@
 
 .layout {
   margin: 0 auto;
-  width: 100%;
-  position: relative; }
+  position: relative;
+  width: 100%; }
   .layout .menu {
     background: #ff4727;
     color: #fff;
     height: 100%;
-    position: absolute;
+    position: fixed;
     text-align: center;
     width: 70px; }
     .layout .menu .icon {
       margin: 15px; }
     .layout .menu .menu-bottom {
-      margin-top: 300px; }
+      margin-top: 200%; }
       .layout .menu .menu-bottom .rotatable {
         margin-top: 80px;
         font-size: 32px;
@@ -69,16 +69,18 @@
           font-size: 11px; }
   .layout .content {
     margin: 70px 0 50px 0; }
-    .layout .content .block-workin .voting {
-      margin-top: 25px; }
-      .layout .content .block-workin .voting > p {
-        color: #ff4727;
-        font-family: GothamPro;
-        font-size: 18px;
-        font-weight: bold; }
-    .layout .content .block-workin .social-voting {
-      font-size: 20px;
-      margin: 0 auto; }
+    .layout .content .block-workin {
+      margin-bottom: 25px; }
+      .layout .content .block-workin .voting {
+        margin-top: 25px; }
+        .layout .content .block-workin .voting > p {
+          color: #ff4727;
+          font-family: GothamPro;
+          font-size: 18px;
+          font-weight: bold; }
+      .layout .content .block-workin .social-voting {
+        font-size: 20px;
+        margin: 0 auto; }
     .layout .content .consist {
       font-size: 24px; }
       .layout .content .consist > a {
