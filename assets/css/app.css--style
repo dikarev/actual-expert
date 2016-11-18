@@ -68,7 +68,8 @@
       line-height: 1.1;
       margin: 15px 0;
       padding: 20px 0px;
-      text-align: center; }
+      text-align: center;
+      right: 0; }
       .layout .header .call .call-namber {
         font-size: 19px; }
         .layout .header .call .call-namber .call-info {
@@ -172,4 +173,4 @@
     .layout .footer .footer-text {
       line-height: 1.1; }
 
-/*# sourceMappingURL=app.css.map */
+/*# sourceMappingURL=app.css--style.map */
