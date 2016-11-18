@@ -3,37 +3,41 @@
 @include font-face(GothamPro, GothamPro/GothamPro, null, null, eot woff ttf svg);
 @include font-face(GothamPro-Medium, GothamPro-Medium/GothamPro-Medium, null, null, eot woff ttf svg);
 
-.no-gutter >[class*='col-'] {
+.no-gutter > [class*="col-"] {
     padding-left: 0px;
     padding-right: 0px;
 }
 .layout {
     margin: 0 auto;
     position: relative;
-    width: 100%;
+
     .menu {
         background: #ff4727;
-        color:#fff;
+        color: #fff;
         height: 100%;
         position: fixed;
         text-align: center;
         width: 70px;
+
         .icon {
             margin: 15px;
         }
+
         .menu-bottom {
             margin-top: 200%;
+
             .rotatable {
-                margin-top: 80px;
                 font-size: 32px;
+                margin-top: 80px;
                 -webkit-transform: rotate(-90deg);
-                -moz-transform: rotate(-90deg);
-                -o-transform: rotate(-90deg);
-                -ms-transform: rotate(-90deg);
-                transform: rotate(-90deg);
+                   -moz-transform: rotate(-90deg);
+                     -o-transform: rotate(-90deg);
+                    -ms-transform: rotate(-90deg);
+                        transform: rotate(-90deg);
             }
         }
     }
+
     .header {
         background-image: url(../img/header.png);
         font-family: Regular;

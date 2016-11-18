@@ -4,14 +4,13 @@
 @font-face {
   font-family: "GothamPro-Medium";
   src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot?") format("eot"), url("../fonts/GothamPro-Medium/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype"), url("../fonts/GothamPro-Medium/GothamPro-Medium.svg#GothamPro-Medium") format("svg"); }
-.no-gutter > [class*='col-'] {
+.no-gutter > [class*="col-"] {
   padding-left: 0px;
   padding-right: 0px; }
 
 .layout {
   margin: 0 auto;
-  position: relative;
-  width: 100%; }
+  position: relative; }
   .layout .menu {
     background: #ff4727;
     color: #fff;
@@ -24,8 +23,8 @@
     .layout .menu .menu-bottom {
       margin-top: 200%; }
       .layout .menu .menu-bottom .rotatable {
-        margin-top: 80px;
         font-size: 32px;
+        margin-top: 80px;
         -webkit-transform: rotate(-90deg);
         -moz-transform: rotate(-90deg);
         -o-transform: rotate(-90deg);
