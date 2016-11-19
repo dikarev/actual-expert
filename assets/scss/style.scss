@@ -8,7 +8,10 @@
     padding-left: 0px;
     padding-right: 0px;
 }
+
 .layout {
+    overflow: hidden;
+    
     .menu {
         background: #ff4727;
         color: #fff;
@@ -29,15 +32,17 @@
                 font-size: 32px;
                 margin-top: 80px;
                 -webkit-transform: rotate(-90deg);
-                   -moz-transform: rotate(-90deg);
-                     -o-transform: rotate(-90deg);
-                    -ms-transform: rotate(-90deg);
-                        transform: rotate(-90deg);
+                -moz-transform: rotate(-90deg);
+                -o-transform: rotate(-90deg);
+                -ms-transform: rotate(-90deg);
+                transform: rotate(-90deg);
             }
         }
     }
 
-    &__content {}
+    &__content {
+        padding-left: 70px;
+    }
 
     .header {
         background-image: url(../img/header.png);
