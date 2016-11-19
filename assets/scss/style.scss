@@ -10,8 +10,6 @@
 }
 
 .layout {
-    overflow: hidden;
-    
     .menu {
         background: #ff4727;
         color: #fff;
@@ -275,5 +273,23 @@
             line-height: 1.1;
             padding-bottom: 15px;
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 678px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 902px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1100px;
     }
 }
