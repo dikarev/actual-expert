@@ -9,9 +9,6 @@
     padding-right: 0px;
 }
 .layout {
-    margin: 0 auto;
-    position: relative;
-
     .menu {
         background: #ff4727;
         color: #fff;
@@ -35,19 +32,16 @@
                    -moz-transform: rotate(-90deg);
                      -o-transform: rotate(-90deg);
                     -ms-transform: rotate(-90deg);
-                transform: rotate(-90deg);
+                        transform: rotate(-90deg);
             }
         }
     }
 
-    &__content {
-        padding-left: 70px;
-    }
+    &__content {}
 
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
-        width: 100%;
 
         .logo {
             color: #430d0d;
@@ -57,31 +51,38 @@
             padding: 5px 0 10px 0;
             text-align: center;
         }
+
         .sponsor {
             font-size: 11px;
             margin: 35px 0 10px 0;
+
             .sposor-name {
                 line-height: 1;
             }
+
             > a {
                 color: #23222e;
                 text-decoration: underline;
             }
         }
+
         .social {
             margin-top: 27px;
             display: block;
+
             .social__button {
                 max-width: 65px;
                 padding: 5px 0;
                 text-align: center;
             }
+
             .social__button:hover {
                 border: 2px solid #ff4727;
                 color: #ff4727;
                 margin: -2px 0;
             }
         }
+
         .call {
             background: #ff4727;
             color: #fff;
@@ -102,10 +103,13 @@
     }
     .content {
         margin: 70px 0 50px 0;
+
         .block-workin {
             margin-bottom: 25px;
+
             .voting {
                 margin-top: 25px;
+
                 > p {
                     color: #ff4727;
                     font-family: GothamPro;
@@ -113,6 +117,7 @@
                     font-weight: bold;
                 }
             }
+
             .social-voting {
                 font-size: 20px;
                 margin: 0 auto;
@@ -121,6 +126,7 @@
 
         .consist {
             font-size: 24px;
+
             > a {
                 color: #23222e;
                 font-family: PlayfairDisplayRegular;
@@ -130,6 +136,7 @@
         .name {
             font-size: 48px;
             margin: 75px 0;
+
             .profession {
                 font-family: GothamPro;
                 font-size: 24px;
@@ -137,15 +144,18 @@
         }
         .information {
             text-align: center;
+
             .blog__work {
                 .diary {
                     color: #23222e;
                     font-family: PlayfairDisplayRegular;
                     font-size: 24px;
                 }
+
                 .model-info {
                     font-family: PlayfairDisplayRegular;
                     font-size: 18px;
+
                     > span {
                         color: #ff4727;
                     }
@@ -153,15 +163,18 @@
             }
             .block__rezultat {
                 margin: 0 auto;
+
                 > p {
                     font-family: GothamPro;
                     font-size: 18px;
                     padding: 5px 0;
                 }
             }
+
             .img-model {
                 display: inline-block;
                 margin: 0 auto;
+
                 .image {
                     float: left;
                     padding: 2px;
@@ -170,16 +183,20 @@
             .trait {
                 margin: 10px 0;
             }
+
             .procedure {
                 font-family: PlayfairDisplay;
                 font-size: 18px;
             }
+
             .block__week {
                 margin-top: 15px;
+
                 > p {
                     font-size: 24px;
                     font-family: PlayfairDisplay;
                 }
+
                 .item {
                     margin: 30px 0;
                     margin-left: -35px;
@@ -192,6 +209,7 @@
                     }
                 }
             }
+
             .final {
                 color: #ff4727;
                 font-family: PlayfairDisplay;;
@@ -200,6 +218,7 @@
             }
         }
     }
+
     .footer {
         background-image: url(../img/footer.png);
         background-size: cover;
@@ -208,9 +227,11 @@
         font-family: GothamPro;
         color: #6c696c;
         padding-bottom: 90px;
+
         .container {
             padding-top: 90px;
         }
+
         p {
             font-size: 15px;
             font-weight: bold;
@@ -218,25 +239,31 @@
             margin-bottom: 40px;
             text-overflow: ellipsis;
         }
+
         .footer-item {
             padding-left: 0;
             padding-bottom: 10px;
+
             .list-item {
                 list-style: none;
                 padding-bottom: 20px;
+
                 > a {
                     color: #6c696c;
                     text-decoration: underline;
                 }
+
                 > span {
                     text-decoration: underline;
                 }
             }
         }
+
         img {
             margin-top:5px;
             padding-bottom: 15px;
         }
+
         .footer-text {
             line-height: 1.1;
             padding-bottom: 15px;
