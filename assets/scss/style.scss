@@ -45,6 +45,7 @@
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
+        padding-bottom: 15px;
 
         .logo {
             color: #430d0d;
@@ -52,11 +53,16 @@
             line-height: 1;
             padding: 5px 0 10px 0;
             text-align: center;
+
+            > img {
+                margin: 0 auto;
+            }
         }
 
         .sponsor {
             font-size: 10px;
             margin: 35px 0 10px 0;
+            text-align: center;
 
             .sposor-name {
                 line-height: 1;
@@ -69,11 +75,10 @@
         }
 
         .social {
-            margin-top: 27px;
             display: block;
+            margin-top: 27px;
 
             .social__button {
-                max-width: 65px;
                 padding: 5px 0;
                 text-align: center;
             }
@@ -86,17 +91,18 @@
         }
 
         .call {
-            background: #ff4727;
-            color: #fff;
-            line-height: 1.1;
-            margin: 15px 0;
-            padding: 20px 0px;
-            text-align: center;
+            margin: 0 auto;
             width: 200px;
 
             .call-namber {
-                font-size: 18px;
+                margin-top: 15px;
+                background: #ff4727;
+                color: #fff;
                 font-family: GothamPro-Medium;
+                font-size: 18px;
+                line-height: 1.1;
+                padding: 20px 0px;
+                text-align: center;
 
                 .call-info {
                     font-size: 11px;
@@ -121,9 +127,10 @@
                 }
             }
 
-            .social-voting {
+            .social__voting {
                 font-size: 20px;
                 margin: 0 auto;
+
             }
         }
 

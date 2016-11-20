@@ -35,26 +35,29 @@
   padding-left: 70px; }
 .layout .header {
   background-image: url(../img/header.png);
-  font-family: GothamPro; }
+  font-family: GothamPro;
+  padding-bottom: 15px; }
   .layout .header .logo {
     color: #430d0d;
     font-weight: bold;
     line-height: 1;
     padding: 5px 0 10px 0;
     text-align: center; }
+    .layout .header .logo > img {
+      margin: 0 auto; }
   .layout .header .sponsor {
     font-size: 10px;
-    margin: 35px 0 10px 0; }
+    margin: 35px 0 10px 0;
+    text-align: center; }
     .layout .header .sponsor .sposor-name {
       line-height: 1; }
     .layout .header .sponsor > a {
       color: #23222e;
       text-decoration: underline; }
   .layout .header .social {
-    margin-top: 27px;
-    display: block; }
+    display: block;
+    margin-top: 27px; }
     .layout .header .social .social__button {
-      max-width: 65px;
       padding: 5px 0;
       text-align: center; }
     .layout .header .social .social__button:hover {
@@ -62,16 +65,17 @@
       color: #ff4727;
       margin: -2px 0; }
   .layout .header .call {
-    background: #ff4727;
-    color: #fff;
-    line-height: 1.1;
-    margin: 15px 0;
-    padding: 20px 0px;
-    text-align: center;
+    margin: 0 auto;
     width: 200px; }
     .layout .header .call .call-namber {
+      margin-top: 15px;
+      background: #ff4727;
+      color: #fff;
+      font-family: GothamPro-Medium;
       font-size: 18px;
-      font-family: GothamPro-Medium; }
+      line-height: 1.1;
+      padding: 20px 0px;
+      text-align: center; }
       .layout .header .call .call-namber .call-info {
         font-size: 11px; }
 .layout .content {
@@ -85,7 +89,7 @@
         font-family: GothamPro;
         font-size: 18px;
         font-weight: bold; }
-    .layout .content .block-workin .social-voting {
+    .layout .content .block-workin .social__voting {
       font-size: 20px;
       margin: 0 auto; }
   .layout .content .consist {
