@@ -12,6 +12,7 @@
 }
 
 .layout {
+
     .menu {
         background: #ff4727;
         color: #fff;
@@ -47,6 +48,7 @@
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
+        padding-left: 20px;
 
         .logo {
 
@@ -88,53 +90,53 @@
         }
 
 
-            .social {
-                display: block;
+        .social {
+            display: block;
+            margin-top: 17px;
+            max-width: 284px;
+
+            .social__button {
+                border: 3px solid transparent;
+                height: 60px;
+                margin:  0 -2px;
+                max-width: 65px;
+                padding: 5px 2px 0 0;
+                text-align: center;
+
+                .fa {
+                    font-size: 37px;
+                    padding: 5px 0;
+                }
+            }
+
+            .social__button:hover {
+                border: 3px solid #ff4727;
+                color: #ff4727;
+                height: 60px;
+                margin-left: -2px;
+                width: 65px;
+            }
+        }
+
+        .call {
+            margin-left: 3px;
+            max-width: 225px;
+
+            .call-namber {
                 margin-top: 17px;
-                max-width: 284px;
+                background: #ff4727;
+                color: #fff;
+                font-family: GothamPro-Medium;
+                font-size: 18px;
+                line-height: 1.1;
+                padding: 14px 0;
+                text-align: center;
 
-                .social__button {
-                    border: 3px solid transparent;
-                    height: 60px;
-                    margin:  0 -2px;
-                    max-width: 65px;
-                    padding: 5px 2px 0 0;
-                    text-align: center;
-
-                    .fa {
-                        font-size: 37px;
-                        padding: 5px 0;
-                    }
-                }
-
-                .social__button:hover {
-                    border: 3px solid #ff4727;
-                    color: #ff4727;
-                    height: 60px;
-                    margin-left: -2px;
-                    width: 65px;
+                .call-info {
+                    font-size: 11px;
                 }
             }
-
-            .call {
-                margin-left: 3px;
-                max-width: 225px;
-
-                .call-namber {
-                    margin-top: 17px;
-                    background: #ff4727;
-                    color: #fff;
-                    font-family: GothamPro-Medium;
-                    font-size: 18px;
-                    line-height: 1.1;
-                    padding: 14px 0;
-                    text-align: center;
-
-                    .call-info {
-                        font-size: 11px;
-                    }
-                }
-            }
+        }
 
     }
     .content {
@@ -338,18 +340,12 @@
 
 @media (min-width: 992px) {
     .container {
-        width: 530px;
+        width: 862px;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        width: 962px;
-    }
-}
-
-@media (min-width: 1500px) {
-    .container {
-        width: 1262px;
+        width: 1060px;
     }
 }
