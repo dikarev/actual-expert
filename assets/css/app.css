@@ -193,8 +193,10 @@
   background-position: center center;
   font-family: GothamPro;
   color: #6c696c;
-  padding: 140px 0 110px 110px;
+  padding: 140px 0 90px 110px;
   margin-top: 75px; }
+  .layout .footer .description {
+    margin-top: 100px; }
   .layout .footer p {
     font-size: 17px;
     letter-spacing: 1.1px;

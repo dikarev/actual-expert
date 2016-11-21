@@ -208,7 +208,7 @@
                         }
                     }
                 }
-                
+
                 .block__rezultat {
                     margin: 0 auto;
 
@@ -279,8 +279,11 @@
         background-position: center center;
         font-family: GothamPro;
         color: #6c696c;
-        padding: 140px 0 110px 110px;
+        padding: 140px 0 90px 110px;
         margin-top: 75px;
+        .description {
+            margin-top: 100px;
+        }
 
         p {
             font-size: 17px;
