@@ -12,6 +12,7 @@
 }
 
 .layout {
+    max-width: 1500px;
     &__screen {
         background: url(../img/screen/07-uchastnik-full.jpg) no-repeat;
         bottom: 0;
@@ -57,16 +58,24 @@
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
+        padding-left: 20px;
 
         .logo {
-            color: #010101;
-            font-family: MyriadPro-Regular;
-            font-size: 19px;
-            font-weight: bold;
-            line-height: 1;
-            padding: 5px 0 10px 30px;
+
+            padding: 1px 0 10px 4px;
             text-align: center;
-            width: 225px;
+            max-width: 250px;
+            margin-left: 19px;
+            letter-spacing: 1.1px;
+
+            .logo-text {
+                color: #010101;
+                font-family: MyriadPro-Regular;
+                font-size: 19px;
+                font-weight: bold;
+                line-height: 1;
+                padding-top: 2px;
+            }
 
             > img {
                 margin: 0 auto;
@@ -77,6 +86,8 @@
             font-size: 14px;
             margin: 25px 0 10px 0;
             font-family: GothamPro-Regular;
+            max-width: 200px;
+            margin-left: 18px;
 
             .sposor-name {
                 line-height: 1;
@@ -88,47 +99,60 @@
             }
         }
 
-        .social {
-            display: block;
-            margin-top: 27px;
 
-            .social__button {
-                padding: 5px 0;
-                text-align: center;
-            }
+            .social {
+                display: block;
+                margin-top: 17px;
+                width: 284px;
 
-            .social__button:hover {
-                border: 2px solid #ff4727;
-                color: #ff4727;
-                margin: -2px 0;
-            }
-        }
+                .social__button {
+                    margin:  0 -2px;
+                    height: 60px;
+                    padding: 5px 2px 0 0;
+                    text-align: center;
+                    max-width: 65px;
 
-        .call {
-            margin: 0 auto;
-            width: 225px;
+                    .fa {
+                        font-size: 37px;
+                        padding: 5px 0;
+                    }
+                }
 
-            .call-namber {
-                margin-top: 15px;
-                background: #ff4727;
-                color: #fff;
-                font-family: GothamPro-Medium;
-                font-size: 18px;
-                line-height: 1.1;
-                padding: 20px 0;
-                text-align: center;
-
-                .call-info {
-                    font-size: 11px;
+                .social__button:hover {
+                    border: 3px solid #ff4727;
+                    color: #ff4727;
+                    height: 60px;
+                    margin-left: -2px;
+                    width: 65px;
                 }
             }
-        }
+
+            .call {
+                margin-left: 3px;
+                max-width: 225px;
+
+                .call-namber {
+                    margin-top: 17px;
+                    background: #ff4727;
+                    color: #fff;
+                    font-family: GothamPro-Medium;
+                    font-size: 18px;
+                    line-height: 1.1;
+                    padding: 14px 0;
+                    text-align: center;
+
+                    .call-info {
+                        font-size: 11px;
+                    }
+                }
+            }
+
     }
     .content {
-        margin: 70px 0 50px 0;
+        margin: 64px 0 50px 0;
 
         .block-workin {
-            margin-bottom: 25px;
+            margin:0 0 25px 107px;
 
             .voting {
                 margin-top: 25px;
@@ -144,102 +168,109 @@
             .social__voting {
                 font-size: 20px;
                 margin: 0 auto;
-
             }
         }
 
-        .consist {
-            font-size: 24px;
+        .qqq {
+            margin-left: 27px;
 
-            > a {
-                color: #23222e;
-                font-family: PlayfairDisplayRegular;
-                text-decoration: underline;
-            }
-        }
-        .name {
-            font-size: 48px;
-            margin: 75px 0;
-
-            .profession {
-                font-family: GothamPro;
+            .consist {
                 font-size: 24px;
-            }
-        }
-        .information {
-            text-align: center;
 
-            .blog__work {
-                .diary {
+                > a {
                     color: #23222e;
                     font-family: PlayfairDisplayRegular;
+                    text-decoration: underline;
+                    padding: 0;
+                }
+            }
+            .name {
+                font-size: 48px;
+                margin: 68px 0 90px;
+                font-family: PlayfairDisplayRegular;
+                line-height: 1.2;
+
+                .profession {
+                    font-family: GothamProRegular;
+                    font-size: 31px;
+                    margin-top: 15px;
+                }
+            }
+            .information {
+                text-align: center;
+
+                .blog__work {
+                    .diary {
+                        color: #23222e;
+                        font-family: PlayfairDisplayRegular;
+                        font-size: 24px;
+                    }
+
+                    .model-info {
+                        font-family: PlayfairDisplayRegular;
+                        font-size: 24px;
+
+                        > span {
+                            color: #ff4727;
+                        }
+                    }
+                }
+                .block__rezultat {
+                    margin: 0 auto;
+
+                    > p {
+                        font-family: GothamProRegular;
+                        font-size: 22px;
+                        padding: 5px 0;
+                    }
+                }
+
+                .img-model {
+                    display: inline-block;
+                    margin: 0 auto;
+
+                    .image {
+                        float: left;
+                        padding: 2px;
+                    }
+                }
+
+                .trait {
+                    margin: 10px 0;
+                }
+
+                .procedure {
+                    font-family: PlayfairDisplayRegular;
                     font-size: 24px;
                 }
 
-                .model-info {
-                    font-family: PlayfairDisplayRegular;
-                    font-size: 18px;
+                .block__week {
+                    margin-top: 15px;
 
                     > span {
-                        color: #ff4727;
+                        font-size: 32px;
+                        font-family: PlayfairDisplayRegular;
+                    }
+
+                    .item {
+                        margin: 30px 0;
+                        margin-left: -35px;
+
+                        .list-item {
+                            color: #23222e;
+                            font-family: GothamProRegular;
+                            font-size: 19px;
+                            text-align: left;
+                        }
                     }
                 }
-            }
-            .block__rezultat {
-                margin: 0 auto;
 
-                > p {
-                    font-family: GothamPro;
-                    font-size: 18px;
-                    padding: 5px 0;
-                }
-            }
-
-            .img-model {
-                display: inline-block;
-                margin: 0 auto;
-
-                .image {
-                    float: left;
-                    padding: 2px;
-                }
-            }
-
-            .trait {
-                margin: 10px 0;
-            }
-
-            .procedure {
-                font-family: PlayfairDisplay;
-                font-size: 18px;
-            }
-
-            .block__week {
-                margin-top: 15px;
-
-                > p {
+                .final {
+                    color: #ff4727;
+                    font-family: PlayfairDisplayRegular;
                     font-size: 24px;
-                    font-family: PlayfairDisplay;
+                    margin-top: 25px;
                 }
-
-                .item {
-                    margin: 30px 0;
-                    margin-left: -35px;
-
-                    .list-item {
-                        color: #23222e;
-                        font-family: GothamPro;
-                        font-size: 14px;
-                        text-align: left;
-                    }
-                }
-            }
-
-            .final {
-                color: #ff4727;
-                font-family: PlayfairDisplay;;
-                font-size: 24px;
-                margin-top: 25px;
             }
         }
     }
