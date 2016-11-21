@@ -116,7 +116,10 @@
         font-weight: bold; }
     .layout .content .block-workin .social__voting {
       font-size: 20px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      max-width: 400px; }
+      .layout .content .block-workin .social__voting .fa {
+        font-size: 33px; }
   .layout .content .right__block {
     margin-left: 27px; }
     .layout .content .right__block .consist {
@@ -153,8 +156,10 @@
           font-size: 22px;
           padding: 5px 0; }
       .layout .content .right__block .information .img-model {
-        display: inline-block;
-        margin: 0 auto; }
+        margin: 0 auto;
+        max-width: 675px; }
+        .layout .content .right__block .information .img-model .row {
+          margin-right: 0px; }
         .layout .content .right__block .information .img-model .image {
           float: left;
           padding: 2px; }
