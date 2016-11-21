@@ -17,221 +17,224 @@
   padding-left: 0px;
   padding-right: 0px; }
 
-.layout {
-  max-width: 1500px; }
-  .layout__screen {
-    background: url(../img/screen/07-uchastnik-full.jpg) no-repeat;
-    bottom: 0;
-    left: 0;
-    opacity: .5;
-    position: absolute;
-    right: 0;
-    top: 0; }
-  .layout .menu {
-    background: #ff4727;
-    color: #fff;
-    height: 100%;
-    position: fixed;
+.layout .menu {
+  background: #ff4727;
+  color: #fff;
+  height: 100%;
+  position: fixed;
+  text-align: center;
+  width: 110px;
+  z-index: 100; }
+  .layout .menu .icon {
+    margin: 15px; }
+  .layout .menu .menu-bottom {
+    margin-top: 240px; }
+    .layout .menu .menu-bottom .rotatable {
+      font-size: 56px;
+      margin-top: 120px;
+      -webkit-transform: rotate(-90deg);
+      -moz-transform: rotate(-90deg);
+      -o-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+.layout__content {
+  padding-left: 110px; }
+.layout .header {
+  background-image: url(../img/header.png);
+  font-family: GothamPro;
+  padding-left: 20px; }
+  .layout .header .logo {
+    padding: 1px 0 10px 4px;
     text-align: center;
-    width: 110px;
-    z-index: 100; }
-    .layout .menu .icon {
-      margin: 15px; }
-    .layout .menu .menu-bottom {
-      margin-top: 240px; }
-      .layout .menu .menu-bottom .rotatable {
-        font-size: 56px;
-        margin-top: 120px;
-        -webkit-transform: rotate(-90deg);
-        -moz-transform: rotate(-90deg);
-        -o-transform: rotate(-90deg);
-        -ms-transform: rotate(-90deg);
-        transform: rotate(-90deg); }
-  .layout__content {
-    padding-left: 110px; }
-  .layout .header {
-    background-image: url(../img/header.png);
-    font-family: GothamPro;
-    padding-left: 20px; }
-    .layout .header .logo {
-      padding: 1px 0 10px 4px;
-      text-align: center;
-      max-width: 250px;
-      margin-left: 19px;
-      letter-spacing: 1.1px; }
-      .layout .header .logo .logo-text {
-        color: #010101;
-        font-family: MyriadPro-Regular;
-        font-size: 19px;
-        font-weight: bold;
-        line-height: 1;
-        padding-top: 2px; }
-      .layout .header .logo > img {
-        margin: 0 auto; }
-    .layout .header .sponsor {
-      font-size: 14px;
-      margin: 25px 0 10px 0;
-      font-family: GothamPro-Regular;
-      max-width: 200px;
-      margin-left: 18px; }
-      .layout .header .sponsor .sposor-name {
-        line-height: 1; }
-      .layout .header .sponsor > a {
-        color: #23222e;
-        text-decoration: underline; }
-    .layout .header .social {
-      display: block;
-      margin-top: 17px;
-      width: 284px; }
-      .layout .header .social .social__button {
-        margin: 0 -2px;
-        height: 60px;
-        padding: 5px 2px 0 0;
-        text-align: center;
-        max-width: 65px; }
-        .layout .header .social .social__button .fa {
-          font-size: 37px;
-          padding: 5px 0; }
-      .layout .header .social .social__button:hover {
-        border: 3px solid #ff4727;
-        color: #ff4727;
-        height: 60px;
-        margin-left: -2px;
-        width: 65px; }
-    .layout .header .call {
-      margin-left: 3px;
-      max-width: 225px; }
-      .layout .header .call .call-namber {
-        margin-top: 17px;
-        background: #ff4727;
-        color: #fff;
-        font-family: GothamPro-Medium;
-        font-size: 18px;
-        line-height: 1.1;
-        padding: 14px 0;
-        text-align: center; }
-        .layout .header .call .call-namber .call-info {
-          font-size: 11px; }
-  .layout .content {
-    margin: 64px 0 50px 0; }
-    .layout .content .block-workin {
-      margin: 0 0 25px 107px; }
-      .layout .content .block-workin .voting {
-        margin-top: 25px; }
-        .layout .content .block-workin .voting > p {
-          color: #ff4727;
-          font-family: GothamPro;
-          font-size: 18px;
-          font-weight: bold; }
-      .layout .content .block-workin .social__voting {
-        font-size: 20px;
-        margin: 0 auto; }
-    .layout .content .qqq {
-      margin-left: 27px; }
-      .layout .content .qqq .consist {
-        font-size: 24px; }
-        .layout .content .qqq .consist > a {
-          color: #23222e;
-          font-family: PlayfairDisplayRegular;
-          text-decoration: underline;
-          padding: 0; }
-      .layout .content .qqq .name {
-        font-size: 48px;
-        margin: 68px 0 90px;
-        font-family: PlayfairDisplayRegular;
-        line-height: 1.2; }
-        .layout .content .qqq .name .profession {
-          font-family: GothamProRegular;
-          font-size: 31px;
-          margin-top: 15px; }
-      .layout .content .qqq .information {
-        text-align: center; }
-        .layout .content .qqq .information .blog__work .diary {
-          color: #23222e;
-          font-family: PlayfairDisplayRegular;
-          font-size: 24px; }
-        .layout .content .qqq .information .blog__work .model-info {
-          font-family: PlayfairDisplayRegular;
-          font-size: 24px; }
-          .layout .content .qqq .information .blog__work .model-info > span {
-            color: #ff4727; }
-        .layout .content .qqq .information .block__rezultat {
-          margin: 0 auto; }
-          .layout .content .qqq .information .block__rezultat > p {
-            font-family: GothamProRegular;
-            font-size: 22px;
-            padding: 5px 0; }
-        .layout .content .qqq .information .img-model {
-          display: inline-block;
-          margin: 0 auto; }
-          .layout .content .qqq .information .img-model .image {
-            float: left;
-            padding: 2px; }
-        .layout .content .qqq .information .trait {
-          margin: 10px 0; }
-        .layout .content .qqq .information .procedure {
-          font-family: PlayfairDisplayRegular;
-          font-size: 24px; }
-        .layout .content .qqq .information .block__week {
-          margin-top: 15px; }
-          .layout .content .qqq .information .block__week > span {
-            font-size: 32px;
-            font-family: PlayfairDisplayRegular; }
-          .layout .content .qqq .information .block__week .item {
-            margin: 30px 0;
-            margin-left: -35px; }
-            .layout .content .qqq .information .block__week .item .list-item {
-              color: #23222e;
-              font-family: GothamProRegular;
-              font-size: 19px;
-              text-align: left; }
-        .layout .content .qqq .information .final {
-          color: #ff4727;
-          font-family: PlayfairDisplayRegular;
-          font-size: 24px;
-          margin-top: 25px; }
-  .layout .footer {
-    background-image: url(../img/footer.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: GothamPro;
-    color: #6c696c;
-    padding-bottom: 90px; }
-    .layout .footer .container {
-      padding-top: 90px; }
-    .layout .footer p {
-      font-size: 15px;
+    max-width: 250px;
+    margin-left: 19px;
+    letter-spacing: 1.1px; }
+    .layout .header .logo .logo-text {
+      color: #010101;
+      font-family: MyriadPro-Regular;
+      font-size: 19px;
       font-weight: bold;
-      letter-spacing: 2px;
-      margin-bottom: 40px;
-      text-overflow: ellipsis; }
-    .layout .footer .footer-item {
-      padding-left: 0;
-      padding-bottom: 10px; }
-      .layout .footer .footer-item .list-item {
-        list-style: none;
-        padding-bottom: 20px; }
-        .layout .footer .footer-item .list-item > a {
-          color: #6c696c;
-          text-decoration: underline; }
-        .layout .footer .footer-item .list-item > span {
-          text-decoration: underline; }
-    .layout .footer img {
-      margin-top: 5px;
-      padding-bottom: 15px; }
-    .layout .footer .footer-text {
+      line-height: 1;
+      padding-top: 2px; }
+    .layout .header .logo > img {
+      margin: 0 auto; }
+  .layout .header .sponsor {
+    font-size: 14px;
+    margin: 25px 0 10px 0;
+    font-family: GothamPro-Regular;
+    max-width: 200px;
+    margin-left: 18px; }
+    .layout .header .sponsor .sposor-name {
+      line-height: 1; }
+    .layout .header .sponsor > a {
+      color: #23222e;
+      text-decoration: underline; }
+  .layout .header .social {
+    display: block;
+    margin-top: 17px;
+    max-width: 284px; }
+    .layout .header .social .social__button {
+      border: 3px solid transparent;
+      height: 60px;
+      margin: 0 -2px;
+      max-width: 65px;
+      padding: 5px 2px 0 0;
+      text-align: center; }
+      .layout .header .social .social__button .fa {
+        font-size: 37px;
+        padding: 5px 0; }
+    .layout .header .social .social__button:hover {
+      border: 3px solid #ff4727;
+      color: #ff4727;
+      height: 60px;
+      margin-left: -2px;
+      width: 65px; }
+  .layout .header .call {
+    margin-left: 3px;
+    max-width: 225px; }
+    .layout .header .call .call-namber {
+      margin-top: 17px;
+      background: #ff4727;
+      color: #fff;
+      font-family: GothamPro-Medium;
+      font-size: 18px;
       line-height: 1.1;
-      padding-bottom: 15px; }
+      padding: 14px 0;
+      text-align: center; }
+      .layout .header .call .call-namber .call-info {
+        font-size: 11px; }
+.layout .content {
+  margin: 64px 0 50px 0; }
+  .layout .content .block-workin {
+    margin: 0 0 25px 107px; }
+    .layout .content .block-workin .voting {
+      margin-top: 25px; }
+      .layout .content .block-workin .voting > p {
+        color: #ff4727;
+        font-family: GothamPro;
+        font-size: 18px;
+        font-weight: bold; }
+    .layout .content .block-workin .social__voting {
+      font-size: 20px;
+      margin: 0 auto; }
+  .layout .content .right__block {
+    margin-left: 27px; }
+    .layout .content .right__block .consist {
+      font-size: 24px; }
+      .layout .content .right__block .consist > a {
+        color: #23222e;
+        font-family: PlayfairDisplayRegular;
+        text-decoration: underline;
+        padding: 0; }
+    .layout .content .right__block .name {
+      font-size: 48px;
+      margin: 68px 0 90px;
+      font-family: PlayfairDisplayRegular;
+      line-height: 1.2; }
+      .layout .content .right__block .name .profession {
+        font-family: GothamProRegular;
+        font-size: 31px;
+        margin-top: 15px; }
+    .layout .content .right__block .information {
+      text-align: center; }
+      .layout .content .right__block .information .blog__work .diary {
+        color: #23222e;
+        font-family: PlayfairDisplayRegular;
+        font-size: 24px; }
+      .layout .content .right__block .information .blog__work .model-info {
+        font-family: PlayfairDisplayRegular;
+        font-size: 24px; }
+        .layout .content .right__block .information .blog__work .model-info > span {
+          color: #ff4727; }
+      .layout .content .right__block .information .block__rezultat {
+        margin: 0 auto; }
+        .layout .content .right__block .information .block__rezultat > p {
+          font-family: GothamProRegular;
+          font-size: 22px;
+          padding: 5px 0; }
+      .layout .content .right__block .information .img-model {
+        display: inline-block;
+        margin: 0 auto; }
+        .layout .content .right__block .information .img-model .image {
+          float: left;
+          padding: 2px; }
+      .layout .content .right__block .information .trait {
+        margin: 10px 0; }
+      .layout .content .right__block .information .procedure {
+        font-family: PlayfairDisplayRegular;
+        font-size: 24px; }
+      .layout .content .right__block .information .block__week {
+        margin-top: 15px; }
+        .layout .content .right__block .information .block__week > span {
+          font-size: 32px;
+          font-family: PlayfairDisplayRegular; }
+        .layout .content .right__block .information .block__week .item {
+          margin: 30px 0;
+          margin-left: -35px; }
+          .layout .content .right__block .information .block__week .item .list-item {
+            color: #23222e;
+            font-family: GothamProRegular;
+            font-size: 19px;
+            text-align: left; }
+      .layout .content .right__block .information .final {
+        color: #ff4727;
+        font-family: PlayfairDisplayRegular;
+        font-size: 24px;
+        margin-top: 25px; }
+.layout .footer {
+  background-image: url(../img/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: GothamPro;
+  color: #6c696c;
+  padding: 140px 0 110px 110px;
+  margin-top: 75px; }
+  .layout .footer p {
+    font-size: 17px;
+    letter-spacing: 1.1px;
+    color: #23222e;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    text-overflow: ellipsis;
+    font-family: GothamPro-Medium; }
+  .layout .footer .footer-item {
+    padding-left: 0;
+    padding-bottom: 10px; }
+    .layout .footer .footer-item .list-item {
+      list-style: none;
+      padding-bottom: 25px; }
+      .layout .footer .footer-item .list-item .list {
+        font-family: GothamProRegular;
+        font-size: 19px; }
+      .layout .footer .footer-item .list-item > a {
+        color: #6c696c;
+        text-decoration: underline; }
+      .layout .footer .footer-item .list-item > span {
+        text-decoration: underline; }
+  .layout .footer .main {
+    margin-bottom: 45px; }
+  .layout .footer img {
+    margin-top: 5px;
+    padding-bottom: 15px; }
+  .layout .footer .footer-text,
+  .layout .footer .copyright {
+    font-family: GothamProRegular;
+    font-size: 16px;
+    line-height: 1.1;
+    padding-bottom: 15px; }
+  .layout .footer .copyright {
+    text-align: right;
+    margin-right: 100px; }
 
 @media (min-width: 768px) {
   .container {
-    width: 678px; } }
+    width: 638px; } }
 @media (min-width: 992px) {
   .container {
-    width: 902px; } }
+    width: 862px; } }
 @media (min-width: 1200px) {
   .container {
-    width: 1100px; } }
+    width: 1060px; } }
 
 /*# sourceMappingURL=app.css.map */

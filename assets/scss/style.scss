@@ -12,16 +12,6 @@
 }
 
 .layout {
-    max-width: 1500px;
-    &__screen {
-        background: url(../img/screen/07-uchastnik-full.jpg) no-repeat;
-        bottom: 0;
-        left: 0;
-        opacity: .5;
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
 
     .menu {
         background: #ff4727;
@@ -103,14 +93,15 @@
             .social {
                 display: block;
                 margin-top: 17px;
-                width: 284px;
+                max-width: 284px;
 
                 .social__button {
-                    margin:  0 -2px;
+                    border: 3px solid transparent;
                     height: 60px;
+                    margin:  0 -2px;
+                    max-width: 65px;
                     padding: 5px 2px 0 0;
                     text-align: center;
-                    max-width: 65px;
 
                     .fa {
                         font-size: 37px;
@@ -171,7 +162,7 @@
             }
         }
 
-        .qqq {
+        .right__block {
             margin-left: 27px;
 
             .consist {
@@ -282,18 +273,17 @@
         background-position: center center;
         font-family: GothamPro;
         color: #6c696c;
-        padding-bottom: 90px;
-
-        .container {
-            padding-top: 90px;
-        }
+        padding: 140px 0 110px 110px;
+        margin-top: 75px;
 
         p {
-            font-size: 15px;
-            font-weight: bold;
+            font-size: 17px;
+            letter-spacing: 1.1px;
+            color: #23222e;
             letter-spacing: 2px;
             margin-bottom: 40px;
             text-overflow: ellipsis;
+            font-family: GothamPro-Medium;
         }
 
         .footer-item {
@@ -302,7 +292,12 @@
 
             .list-item {
                 list-style: none;
-                padding-bottom: 20px;
+                padding-bottom: 25px;
+
+                .list {
+                    font-family: GothamProRegular;
+                    font-size: 19px;
+                }
 
                 > a {
                     color: #6c696c;
@@ -314,33 +309,43 @@
                 }
             }
         }
+        .main {
+            margin-bottom: 45px;
+        }
 
         img {
             margin-top:5px;
             padding-bottom: 15px;
         }
 
-        .footer-text {
+        .footer-text,
+        .copyright {
+            font-family: GothamProRegular;
+            font-size: 16px;
             line-height: 1.1;
             padding-bottom: 15px;
+        }
+        .copyright {
+            text-align: right;
+            margin-right: 100px;
         }
     }
 }
 
 @media (min-width: 768px) {
     .container {
-        width: 678px;
+        width: 638px;
     }
 }
 
 @media (min-width: 992px) {
     .container {
-        width: 902px;
+        width: 862px;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        width: 1100px;
+        width: 1060px;
     }
 }
