@@ -48,7 +48,6 @@
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
-        padding-left: 20px;
 
         .logo {
 
@@ -340,12 +339,18 @@
 
 @media (min-width: 992px) {
     .container {
-        width: 862px;
+        width: 530px;
     }
 }
 
 @media (min-width: 1200px) {
     .container {
-        width: 1060px;
+        width: 962px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .container {
+        width: 1268px;
     }
 }
