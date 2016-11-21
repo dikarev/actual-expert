@@ -12,6 +12,15 @@
 }
 
 .layout {
+    &__screen {
+        background: url(../img/screen/07-uchastnik-full.jpg) no-repeat;
+        bottom: 0;
+        left: 0;
+        opacity: .5;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
 
     .menu {
         background: #ff4727;
