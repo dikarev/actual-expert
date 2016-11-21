@@ -1,8 +1,10 @@
 @import "mixins";
 
 @include font-face(GothamPro, GothamPro/GothamPro, null, null, eot woff ttf svg);
+@include font-face(GothamPro-Regular, GothamProRegular/GothamProRegular, null, null, eot woff ttf svg);
 @include font-face(GothamPro-Medium, GothamPro-Medium/GothamPro-Medium, null, null, eot woff ttf svg);
 @include font-face(PlayfairDisplayRegular, PlayfairDisplayRegular/PlayfairDisplayRegular, null, null, eot woff ttf svg);
+@include font-face(MyriadPro-Regular, MyriadProRegular/MyriadProRegular, null, null, eot woff ttf svg);
 
 .no-gutter > [class*="col-"] {
     padding-left: 0px;
@@ -10,13 +12,14 @@
 }
 
 .layout {
+
     .menu {
         background: #ff4727;
         color: #fff;
         height: 100%;
         position: fixed;
         text-align: center;
-        width: 70px;
+        width: 110px;
         z-index: 100;
 
         .icon {
@@ -24,11 +27,11 @@
         }
 
         .menu-bottom {
-            margin-top: 200%;
+            margin-top: 240px;
 
             .rotatable {
-                font-size: 32px;
-                margin-top: 80px;
+                font-size: 56px;
+                margin-top: 120px;
                 -webkit-transform: rotate(-90deg);
                 -moz-transform: rotate(-90deg);
                 -o-transform: rotate(-90deg);
@@ -39,20 +42,22 @@
     }
 
     &__content {
-        padding-left: 70px;
+        padding-left: 110px;
     }
 
     .header {
         background-image: url(../img/header.png);
         font-family: GothamPro;
-        padding-bottom: 15px;
 
         .logo {
-            color: #430d0d;
+            color: #010101;
+            font-family: MyriadPro-Regular;
+            font-size: 19px;
             font-weight: bold;
             line-height: 1;
-            padding: 5px 0 10px 0;
+            padding: 5px 0 10px 30px;
             text-align: center;
+            width: 225px;
 
             > img {
                 margin: 0 auto;
@@ -60,9 +65,9 @@
         }
 
         .sponsor {
-            font-size: 10px;
-            margin: 35px 0 10px 0;
-            text-align: center;
+            font-size: 14px;
+            margin: 25px 0 10px 0;
+            font-family: GothamPro-Regular;
 
             .sposor-name {
                 line-height: 1;
@@ -92,7 +97,7 @@
 
         .call {
             margin: 0 auto;
-            width: 200px;
+            width: 225px;
 
             .call-namber {
                 margin-top: 15px;
@@ -101,7 +106,7 @@
                 font-family: GothamPro-Medium;
                 font-size: 18px;
                 line-height: 1.1;
-                padding: 20px 0px;
+                padding: 20px 0;
                 text-align: center;
 
                 .call-info {

@@ -2,11 +2,17 @@
   font-family: "GothamPro";
   src: url("../fonts/GothamPro/GothamPro.eot?") format("eot"), url("../fonts/GothamPro/GothamPro.woff") format("woff"), url("../fonts/GothamPro/GothamPro.ttf") format("truetype"), url("../fonts/GothamPro/GothamPro.svg#GothamPro") format("svg"); }
 @font-face {
+  font-family: "GothamPro-Regular";
+  src: url("../fonts/GothamProRegular/GothamProRegular.eot?") format("eot"), url("../fonts/GothamProRegular/GothamProRegular.woff") format("woff"), url("../fonts/GothamProRegular/GothamProRegular.ttf") format("truetype"), url("../fonts/GothamProRegular/GothamProRegular.svg#GothamPro-Regular") format("svg"); }
+@font-face {
   font-family: "GothamPro-Medium";
   src: url("../fonts/GothamPro-Medium/GothamPro-Medium.eot?") format("eot"), url("../fonts/GothamPro-Medium/GothamPro-Medium.woff") format("woff"), url("../fonts/GothamPro-Medium/GothamPro-Medium.ttf") format("truetype"), url("../fonts/GothamPro-Medium/GothamPro-Medium.svg#GothamPro-Medium") format("svg"); }
 @font-face {
   font-family: "PlayfairDisplayRegular";
   src: url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?") format("eot"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype"), url("../fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.svg#PlayfairDisplayRegular") format("svg"); }
+@font-face {
+  font-family: "MyriadPro-Regular";
+  src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?") format("eot"), url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"), url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype"), url("../fonts/MyriadProRegular/MyriadProRegular.svg#MyriadPro-Regular") format("svg"); }
 .no-gutter > [class*="col-"] {
   padding-left: 0px;
   padding-right: 0px; }
@@ -17,38 +23,40 @@
   height: 100%;
   position: fixed;
   text-align: center;
-  width: 70px;
+  width: 110px;
   z-index: 100; }
   .layout .menu .icon {
     margin: 15px; }
   .layout .menu .menu-bottom {
-    margin-top: 200%; }
+    margin-top: 240px; }
     .layout .menu .menu-bottom .rotatable {
-      font-size: 32px;
-      margin-top: 80px;
+      font-size: 56px;
+      margin-top: 120px;
       -webkit-transform: rotate(-90deg);
       -moz-transform: rotate(-90deg);
       -o-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
       transform: rotate(-90deg); }
 .layout__content {
-  padding-left: 70px; }
+  padding-left: 110px; }
 .layout .header {
   background-image: url(../img/header.png);
-  font-family: GothamPro;
-  padding-bottom: 15px; }
+  font-family: GothamPro; }
   .layout .header .logo {
-    color: #430d0d;
+    color: #010101;
+    font-family: MyriadPro-Regular;
+    font-size: 19px;
     font-weight: bold;
     line-height: 1;
-    padding: 5px 0 10px 0;
-    text-align: center; }
+    padding: 5px 0 10px 30px;
+    text-align: center;
+    width: 225px; }
     .layout .header .logo > img {
       margin: 0 auto; }
   .layout .header .sponsor {
-    font-size: 10px;
-    margin: 35px 0 10px 0;
-    text-align: center; }
+    font-size: 14px;
+    margin: 25px 0 10px 0;
+    font-family: GothamPro-Regular; }
     .layout .header .sponsor .sposor-name {
       line-height: 1; }
     .layout .header .sponsor > a {
@@ -66,7 +74,7 @@
       margin: -2px 0; }
   .layout .header .call {
     margin: 0 auto;
-    width: 200px; }
+    width: 225px; }
     .layout .header .call .call-namber {
       margin-top: 15px;
       background: #ff4727;
@@ -74,7 +82,7 @@
       font-family: GothamPro-Medium;
       font-size: 18px;
       line-height: 1.1;
-      padding: 20px 0px;
+      padding: 20px 0;
       text-align: center; }
       .layout .header .call .call-namber .call-info {
         font-size: 11px; }
